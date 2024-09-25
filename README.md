@@ -1,14 +1,14 @@
 # NotaViva
-NotaViva is a YouTube Transcript to Detailed Notes Converter. This application uses Google Gemma2 Transformer to summarize YouTube video transcripts and provides the summary in PDF format. Currently, it supports only English videos.
+NotaViva is a YouTube Transcript and Website content to Detailed Notes Converter. This application uses Google Gemini-1.5pro/flash Transformer to summarize YouTube video transcripts and provides the summary in PDF format.
 
 ## Installation
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/notaviva.git
+    git clone [https://github.com/yourusername/notaviva.git](https://github.com/Abie2023/Web-Video-Summarizer.git)
     ```
     ```
-    cd notaviva
+    cd Web-Video-Summarizer
     ```
 
 2. Create and activate a virtual environment (optional but recommended):
@@ -16,7 +16,10 @@ NotaViva is a YouTube Transcript to Detailed Notes Converter. This application u
     python -m venv venv
     ```
     ```
-    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+    source venv/bin/activate   #unix systems
+    ```
+    ```
+   venv\Scripts\activate  # On Windows use
     ```
 
 3. Install the required packages:
@@ -29,8 +32,7 @@ NotaViva is a YouTube Transcript to Detailed Notes Converter. This application u
     GOOGLE_API_KEY=your_google_api_key
     ```
 
-## Usage
-
-Run the Streamlit app:
-```bash
-streamlit run app.py
+5. Start the app
+   ```
+   streamlit run app.py
+   ```
