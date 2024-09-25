@@ -3,8 +3,7 @@
 
 # Ignore virtual environment directory
 venv/
-env/
-__pychache
+__pychache__/
 
 # Ignore log files
 *.log
