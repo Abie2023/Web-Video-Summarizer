@@ -1,0 +1,11 @@
+streamlit
+python-dotenv
+google-generativeai
+youtube-transcript-api
+fpdf
+requests
+beautifulsoup4
+PyMuPDF
+transformers
+pandas
+numpy
